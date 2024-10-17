@@ -1,7 +1,4 @@
 class Restaurante:
-    nome: str
-    categoria: str
-    ativo: bool
 
     def __init__(self, nome: str, categoria: str):
         self.nome = nome
